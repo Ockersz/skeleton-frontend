@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint --fix",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@heroui/avatar": "^2.2.22",
     "@heroui/button": "2.2.27",
+    "@heroui/card": "^2.2.25",
     "@heroui/code": "2.2.21",
     "@heroui/dropdown": "2.3.27",
     "@heroui/input": "2.4.28",
